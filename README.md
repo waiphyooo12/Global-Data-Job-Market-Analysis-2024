@@ -3,8 +3,7 @@
 An interactive Power BI dashboard designed to analyze global data science job market trends. This project visualizes job availability, salary distributions, and geographical hiring hotspots across various technical roles.
 
 ## 📊 Dashboard Preview
-![Dashboard Screenshot](path/to/your/screenshot.png)
-*(Replace the path above with the link to your uploaded image in the /Images folder)*
+<img width="1547" height="866" alt="Screenshot 2026-05-15 at 5 15 39 AM" src="https://github.com/user-attachments/assets/b1d7571c-5398-42ea-bce3-5947a7a450c4" />
 
 ## 🎯 Project Overview
 This dashboard was created to help aspiring data professionals understand the current hiring landscape. By aggregating global job data, it provides a macro-view of which roles are in high demand and what the associated financial rewards are across different regions.

@@ -16,10 +16,20 @@ This project consists of a multi-page interactive report designed to provide act
 * **Educational Barriers:** Analysis of "No Degree" mentions across different roles to identify accessibility in the tech market.
 * **Seniority Impact:** Visualizing the premium paid for "Senior" vs. standard roles.
 
+### **Page 3: Trend Analytics & Timeline Velocity (2024)**
+*Focuses on time-series analysis, job volume fluctuations, and dual-axis compensation tracking.*
+* **Hiring Trajectory & Forecasting:** Modeled a linear trend line over monthly 2024 job counts, identifying a macro market contraction toward the end of Q3 with a subsequent Q4 recovery.
+* **Composition Breakdown over Time:** Utilized area charts and 100% stacked area/bar structures to monitor how the proportional share of distinct data roles shifted month-to-month.
+* **Dual-Axis Pay Structure:** Developed a combination combo chart (Bar + Line) mapping Median Yearly Salary alongside Median Hourly Rates to contrast the baseline compensation dynamics between specific job titles (e.g., Senior Data Scientist vs. Data Analyst).
+
 ## 🚀 Key Features
 * **Interactive Slicers:** Full report filtering by job title and location.
 * **Dynamic KPIs:** Real-time calculation of average hourly and yearly rates.
 * **Data-Driven Visuals:** Utilization of stacked column charts, 100% stacked bar charts, and clustered bar charts to show proportions and rankings.
+* **Advanced Time-Series & Trend Analysis:** Implemented monthly historical tracking across 2024 with a built-in linear trend model to forecast market contractions and hiring velocity spikes.
+* **Proportional Composition Tracking:** Utilized stacked area charts and 100% stacked visuals to monitor how the market share of specific roles (like Data Analyst vs. Data Engineer) fluctuated dynamically over time.
+* **Dual-Axis Pay Structure Evaluation:** Built complex combination charts mapping Median Yearly Salary against Median Hourly Rates simultaneously, allowing stakeholders to immediately contrast flat baseline compensation metrics across different seniority levels.
+* **Granular Advanced Filtering:** Integrated complex multi-select filtering layers within the user interface, enabling users to isolate target categories (e.g., exclusively filtering titles containing "data") across all analytical pages dynamically.
 
 ## 🛠️ Technical Stack
 * **Power BI:** Dashboard design and interactive reporting.

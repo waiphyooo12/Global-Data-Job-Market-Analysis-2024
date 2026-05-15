@@ -20,14 +20,19 @@ This project consists of a multi-page interactive report designed to provide act
 * **Composition Breakdown over Time:** Utilized area charts and 100% stacked area/bar structures to monitor how the proportional share of distinct data roles shifted month-to-month.
 * **Dual-Axis Pay Structure:** Developed a combination combo chart (Bar + Line) mapping Median Yearly Salary alongside Median Hourly Rates to contrast the baseline compensation dynamics between specific job titles (e.g., Senior Data Scientist vs. Data Analyst).
 
+### **Report 4: Advanced Correlation & Workspace Dynamics**
+*Focus: Statistical distributions, outlier tracking, and work-culture splits.*
+* **Multi-Variable Scatter Analysis:** Modeled `Median Yearly Salary` against `Median Hourly Salary` across specific job titles, plotting a linear regression trend line to identify roles that pay a premium relative to hourly expectations (e.g., Senior Data Engineer outliers).
+* **Workplace Flexibility Ratios:** Contrasted standard vs. donut charts to track the exact portion of job postings explicitly offering Work-From-Home (WFH) options (showing a 42.45% baseline adoption rate).
+* **Employment Type Densities:** Leveraged a Treemap visual to map job types, proving that Full-Time contracts represent a dominant 90.37% majority of the global market share.
+  
 ## 🚀 Key Features
-* **Interactive Slicers:** Full report filtering by job title and location.
-* **Dynamic KPIs:** Real-time calculation of average hourly and yearly rates.
-* **Data-Driven Visuals:** Utilization of stacked column charts, 100% stacked bar charts, and clustered bar charts to show proportions and rankings.
-* **Advanced Time-Series & Trend Analysis:** Implemented monthly historical tracking across 2024 with a built-in linear trend model to forecast market contractions and hiring velocity spikes.
-* **Proportional Composition Tracking:** Utilized stacked area charts and 100% stacked visuals to monitor how the market share of specific roles (like Data Analyst vs. Data Engineer) fluctuated dynamically over time.
-* **Dual-Axis Pay Structure Evaluation:** Built complex combination charts mapping Median Yearly Salary against Median Hourly Rates simultaneously, allowing stakeholders to immediately contrast flat baseline compensation metrics across different seniority levels.
-* **Granular Advanced Filtering:** Integrated complex multi-select filtering layers within the user interface, enabling users to isolate target categories (e.g., exclusively filtering titles containing "data") across all analytical pages dynamically.
+
+* **Multi-Variable Correlation Modeling:** Developed an advanced Scatter Plot tracking the relationship between `Median Yearly Salary` and `Median Hourly Salary` across roles, featuring a linear regression trend line to easily spot high-paying outliers (e.g., Senior Data Engineers).
+* **Workplace Flexibility Benchmarking:** Engineered a dual-pie/donut chart composition to monitor remote work trends, proving a clear 42.45% baseline adoption rate for Work-From-Home (WFH) positions.
+* **Contract Type Density Mapping:** Utilized a nested Treemap visualization to map global employment structures, visually highlighting that Full-Time roles command a dominant 90.37% majority of the market share.
+* **Advanced Time-Series Analytics:** Implemented a monthly historical velocity timeline across 2024 using stacked area charts to watch how individual job composition shares fluctuated alongside macro market trend lines.
+* **Interactive Data Exploration:** Integrated dynamic, high-level KPI cards and custom multi-select filter panes, allowing end users to isolate target data roles instantly across multiple dimensions.
 
 ## 🛠️ Technical Stack
 * **Power BI:** Dashboard design and interactive reporting.

@@ -1,38 +1,38 @@
-# Global-Data-Job-Market-Analysis-2024
+# Global Data Job Market Analysis & Salary Insights
+An end-to-end Power BI project visualizing over 350,000 data-related job postings to identify hiring trends, salary benchmarks, and educational requirements across the globe.
 
-An interactive Power BI dashboard designed to analyze global data science job market trends. This project visualizes job availability, salary distributions, and geographical hiring hotspots across various technical roles.
-
-## 📊 Dashboard Preview
+## 📊 Dashboard Overview
+This project consists of a multi-page interactive report designed to provide actionable insights for data professionals and recruiters.
 <img width="1547" height="866" alt="Screenshot 2026-05-15 at 5 15 39 AM" src="https://github.com/user-attachments/assets/b1d7571c-5398-42ea-bce3-5947a7a450c4" />
+<img width="1547" height="866" alt="Screenshot 2026-05-15 at 9 30 44 AM" src="https://github.com/user-attachments/assets/8d48308d-1053-4209-8e62-478d7a4aedbb" />
 
-## 🎯 Project Overview
-This dashboard was created to help aspiring data professionals understand the current hiring landscape. By aggregating global job data, it provides a macro-view of which roles are in high demand and what the associated financial rewards are across different regions.
+### **Page 1: Market Landscape & Geography**
+* **Total Job Volume:** Tracking 352K+ active job postings.
+* **Global Distribution:** Geospatial heatmap identifying hiring hubs in North America, Europe, and Asia.
+* **Role Demand:** Comparative analysis of demand for Data Engineers, Analysts, Scientists, and ML Engineers.
 
-### **Key Questions Addressed:**
-* **Market Volume:** Which roles (Data Engineer, Analyst, Scientist) have the highest number of active openings?
-* **Geographic Distribution:** Where are the primary hiring hubs located globally?
-* **Compensation:** What is the average yearly and hourly salary for specific data career paths?
+### **Page 2: Deep Dive - Salaries & Qualifications**
+* **Salary Benchmarking:** Median yearly salary comparisons across major regions (UK, US, France, India).
+* **Educational Barriers:** Analysis of "No Degree" mentions across different roles to identify accessibility in the tech market.
+* **Seniority Impact:** Visualizing the premium paid for "Senior" vs. standard roles.
 
-## 🚀 Key Features & Functionality
-* **Dynamic Filtering:** Users can slice the entire dashboard by Job Title (e.g., Data Analyst, Data Engineer, Machine Learning Engineer) using the interactive filter pane.
-* **Global Heatmap:** A geospatial visualization showing job density across North America, Europe, Africa, and Asia.
-* **KPI Tracking:** High-level metrics for total Job Count, Average Annual Salary, and Average Hourly Rate.
-* **Trend Analysis:** Bar charts comparing the volume of top jobs to identify market leaders.
+## 🚀 Key Features
+* **Interactive Slicers:** Full report filtering by job title and location.
+* **Dynamic KPIs:** Real-time calculation of average hourly and yearly rates.
+* **Data-Driven Visuals:** Utilization of stacked column charts, 100% stacked bar charts, and clustered bar charts to show proportions and rankings.
 
-## 🛠️ Tools & Technologies Used
-* **Power BI Desktop:** Used for data modeling and report design.
-* **Power Query:** Leveraged for data cleaning, type conversion, and handling currency formatting.
-* **DAX (Data Analysis Expressions):** Created custom measures for:
-    * `Average of salary_year_avg`
-    * `Total Job Count`
-* **Geospatial Mapping:** Integrated Microsoft Bing maps for location-based insights.
+## 🛠️ Technical Stack
+* **Power BI:** Dashboard design and interactive reporting.
+* **Power Query:** Data transformation, handling nulls in degree mentions, and currency normalization.
+* **DAX:** Custom measures for median salary calculations and job count aggregations.
+* **Dataset:** Analyzed a comprehensive dataset containing 17+ columns of job metadata (Title, Location, Salary, Skills, Degree Requirements).
 
 ## 📂 Repository Structure
-* `Data-Job-Dashboard.pbix`: The source Power BI file.
-* `/Data/`: (Optional) The raw dataset used for the analysis.
-* `/Images/`: Screenshots and GIFs of the dashboard for quick viewing.
+* `Data_Job_Market_Analysis.pbix`: The full multi-page Power BI workbook.
+* `/Images/`: High-resolution screenshots of both report pages.
+* `README.md`: Project documentation.
 
-## 💡 How to Use
-1.  Download the `.pbix` file from this repository.
-2.  Open it using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3.  Use the **Filters** pane on the right to interact with the data and see specific role insights.
+## 💡 How to View
+1.  Download the `.pbix` file.
+2.  Open using **Power BI Desktop**.
+3.  Navigate between the tabs at the bottom to switch between the **Overview** and **Qualification Analysis** pages.

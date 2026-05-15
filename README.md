@@ -3,8 +3,6 @@ An end-to-end Power BI project visualizing over 350,000 data-related job posting
 
 ## 📊 Dashboard Overview
 This project consists of a multi-page interactive report designed to provide actionable insights for data professionals and recruiters.
-<img width="1547" height="866" alt="Screenshot 2026-05-15 at 5 15 39 AM" src="https://github.com/user-attachments/assets/b1d7571c-5398-42ea-bce3-5947a7a450c4" />
-<img width="1547" height="866" alt="Screenshot 2026-05-15 at 9 30 44 AM" src="https://github.com/user-attachments/assets/8d48308d-1053-4209-8e62-478d7a4aedbb" />
 
 ### **Page 1: Market Landscape & Geography**
 * **Total Job Volume:** Tracking 352K+ active job postings.
